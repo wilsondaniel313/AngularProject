@@ -1,0 +1,13 @@
+<p>edad works!</p>
+<hr>
+<h1>Este es mi componente</h1>
+<button (click)="AumentarEdad()">Aumentar</button>
+<button (click)="DisminuirEdad()">DisminuirEdad</button>
+<h3 [style.background]= "edad >=18 ?  'green' : 'red ' " [style.color]= "'white'" >
+    Tu Edad es: {{edad}}</h3>
+<div *ngIf ="edad >= 18">
+    Eres mayor de edad
+</div>
+<div *ngIf ="edad < 18">
+    Eres menor  de edad
+</div>

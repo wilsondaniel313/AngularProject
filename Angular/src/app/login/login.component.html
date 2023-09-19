@@ -1,0 +1,21 @@
+<p>login works!</p>
+<hr>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link rel="stylesheet" href="./login.component.css">
+<div style="border:9px solid rgb(29, 12, 12); border-radius: 4px;padding:1%;width:70%;margin:auto;">
+<form action="/procesar_formulario" method="POST">
+    <label for="nombre">Nombre de usuario:</label>
+    <input class="input"  type="text" id="nombre" name="nombre" required><br><br>
+    
+    <label for="email">Email:</label>
+    <input class="input" type="email" id="email" name="email" required><br><br>
+    
+    <label for="edad">Contraseña:</label>
+    <input  class="input"   type="password" id="edad" name="edad" required><br><br>
+
+    <a routerLink="/Agencia" class="btn btn-primary">iniciar sesion</a>
+
+    <a routerLink="/registro" style="width: 50%;margin-top:auto;margin-right: 10px;"   class="btn btn-dark">Registrarse</a>
+</form>
+</div>

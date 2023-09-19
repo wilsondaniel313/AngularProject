@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    background-image: linear-gradient(rgb(42, 88, 215),rgb(49, 77, 99));
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 9px;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+p{
+    width: 10%;
+    margin: auto;
+}
